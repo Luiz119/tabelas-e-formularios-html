@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header><h1></b>Tabelas</h1></header>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+     Nome:<input type="text">
+       <br>
+     Senha:<input type="password">
+       <br>
+     E-mail:<input type="email">
+  <br>
+        <label>Interesses:</label><br>
+       <input type="checkbox" name="interesses" value="programacao"> Programação<br>
+       <input type="checkbox" name="interesses" value="design"> Design<br>
+       <input type="checkbox" name="interesses" value="marketing"> Marketing<br><br>
+       Tecnologias:
+       <input type="checkbox" name="linguagem"> Javascript
+       <input type="checkbox" name="linguagem"> HTML
+       <input type="checkbox" name="linguagem"> CSS
+       <br>
+        Cidade:
+       <select name="cidade">
+       <option>Maceió</option>
+       <option>Rio Largo</option>
+       <option>Marechal Deodoro</option>
+       </select>
+        <label>Gênero:</label><br>
+       <input type="radio" name="sexo" value="masculino"> Masculino<br>
+       <input type="radio" name="sexo" value="feminino"> Feminino<br>
+       <input type="radio" name="sexo" value="outro"> Outro<br><br>
+        
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" name="nascimento"><br><br>
+        
+        <label for="quantidade">Quantidade:</label>
+       <input type="number" id="quantidade" name="quantidade" min="1" max="10" step="1"><br><br>
+        
+        <label for="comentarios">Comentários:</label>
+       <textarea id="comentarios" name="comentarios" rows="5"
+        cols="40" placeholder="Digite seus comentários"></textarea><br><br>
+       Turno do curso:
+       <input type="radio" name="turno">Matutino
+       <input type="radio" name="turno">Vespertino
+       <input type="radio" name="turno">Noturno
+       <br><br>
+        Enviar:
+       <input type="reset" value="Limpar">
+        <button type="submit">Enviar</button>
+      <button type="reset">Redefinir</button>
+    </form>
+</body>
+</html>
